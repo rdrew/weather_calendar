@@ -62,3 +62,9 @@
 // Motion UI
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+header {
+   background: $white;
+   margin-bottom: $global-margin;
+}
+
