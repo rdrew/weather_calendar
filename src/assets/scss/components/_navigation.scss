@@ -1,0 +1,19 @@
+.main-menu {
+    background: none;
+    .button {
+        
+    border: 1px solid #ccc;
+    }
+    ul {
+        background: none;
+    }
+    .button-group {
+        .button:first-child {
+            margin-right: $global-margin;
+        }
+    }
+}
+.button.purchase {
+    background: $primary-color !important;
+    color: $white;
+}
